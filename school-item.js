@@ -1,7 +1,7 @@
 class SchoolItem extends HTMLElement {
     constructor() {
         super();
-        this.attachShadow({ mode: 'open' });
+        this.attachShadow({mode: 'open'});
     }
 
     connectedCallback() {
@@ -27,7 +27,19 @@ class SchoolItem extends HTMLElement {
         .school-info > .school-info > * {
           margin: 5px 0;
         }
+        
+        .school-card:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        a div {
+            color: black;
+        }
+        
+        
+        
       </style>
+      <a href="${data.redirectLink}" style="text-decoration:none">
       <div class="school-card">
         <img class="school-image" src="${data.picture}" alt="${data.name}">
         <div class="school-info">
@@ -37,6 +49,7 @@ class SchoolItem extends HTMLElement {
           <p><strong>Level:</strong> ${data.level}</p>
         </div>
       </div>
+      </a>
     `;
     }
 }
