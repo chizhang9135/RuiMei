@@ -111,10 +111,9 @@
 
 </style>
 
-<script src="school-item.js"></script>
 <script>
     async function loadSchools() {
-        const response = await fetch('https://raw.githubusercontent.com/chizhang9135/RuiMeiSchools/master/schools.json'); // Replace with the GitHub raw content URL
+        const response = await fetch('https://raw.githubusercontent.com/chizhang9135/RuiMeiSchools/master/schools.json');
         const schools = await response.json();
         const schoolContainer = document.getElementById('school-container');
 
@@ -126,6 +125,7 @@
     }
     loadSchools();
 </script>
+
 
 <body>
 
