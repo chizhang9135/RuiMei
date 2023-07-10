@@ -1,0 +1,26 @@
+[
+    {
+        "name_cn": "基督教遗产学校",
+        "name_en": "Christian Heritage School",
+        "address": "575 White Plains Rd, Trumbull, CT 06611, United States ",
+        "cost": "42000",
+        "redirectLink": "Schools/CHS.html",
+        "picture": "Assets/SchoolPic/CHS.jpg"
+    },
+    {
+        "name_cn": "清华大学",
+        "name_en": "Tsinghua University",
+        "address": "北京市海淀区清华大学",
+        "cost": "25000",
+        "redirectLink": "Schools/tsinghua_university.html",
+        "picture": "Assets/SchoolPic/tsinghua.jpg"
+    },
+    {
+        "name_cn": "复旦大学",
+        "name_en": "Fudan University",
+        "address": "上海杨浦区复旦大学",
+        "cost": "22000",
+        "redirectLink": "Schools/fudan_university.html",
+        "picture": "Assets/SchoolPic/fudan.jpg"
+    }
+]

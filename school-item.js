@@ -39,7 +39,7 @@ class SchoolItem extends HTMLElement {
       </style>
       <a href="${data.redirectLink}" style="text-decoration:none">
       <div class="school-card">
-          <img class="school-image" src="${data.picture}" alt="${data.name}">
+          <img class="school-image" src="${data.picture}" alt="${data.name_cn}">
           <div class="school-info">
           <h3>${data.name_cn}</h3>
           <h3>${data.name_en}</h3>
