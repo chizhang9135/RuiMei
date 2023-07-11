@@ -44,7 +44,7 @@ class SchoolItem extends HTMLElement {
           <h3>${data.name_cn}</h3>
           <h3>${data.name_en}</h3>
           <p><strong>地址:</strong> ${data.address}</p>
-          <p><strong>大致花费 (美金):</strong> ${data.cost}</p>
+          <p><strong>每年大致花费 (美金):</strong> ${data.cost}</p>
           </div>
       </div>
       </a>
